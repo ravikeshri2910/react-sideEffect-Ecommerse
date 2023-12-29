@@ -41,6 +41,7 @@ const cartSlice = createSlice({
                 // console.log('rat', rat)
             } else {
                 existingItem.quantity--
+                
             }
         }
     }
